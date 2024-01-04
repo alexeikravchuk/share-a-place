@@ -1,7 +1,9 @@
 import axios from 'axios';
 import { Loader } from "@googlemaps/js-api-loader";
 
+// DEMO KEY - use your key
 const GOOGLE_API_KEY = 'AIzaSyBCbm10VF7wmTPehN884pLIEdnGRENj-ik';
+
 const loader = new Loader({
   apiKey: GOOGLE_API_KEY,
   version: "weekly",
